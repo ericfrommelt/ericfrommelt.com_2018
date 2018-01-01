@@ -1,0 +1,18 @@
+{
+  "name": "ericfrommelt_2018",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "ericfrommelt.com",
+  "author": "Eric Frommelt",
+  "license": "MIT",
+  "dependencies": {
+    "picturefill": "^3.0.2"
+  },
+  "devDependencies": {
+    "del": "^3.0.0",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^4.1.0",
+    "gulp-hash": "^4.1.1",
+    "gulp-sass": "^3.1.0"
+  }
+}

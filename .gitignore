@@ -1,0 +1,8 @@
+.DS_Store
+.sass-cache
+.vscode
+node_modules
+data/**/hash.*
+static
+public
+src/img
