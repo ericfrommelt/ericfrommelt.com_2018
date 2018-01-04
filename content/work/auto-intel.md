@@ -4,7 +4,8 @@ title: Auto Intel
 client: Popular Mechanics
 description: I worked up this tech'd out background for Pop Mech's Auto Intel section.
 artdirector: Scott Wells
-thumbnail: tn_popmech-autointel
+imgfilename: popmech-autointel
+indexclassname: autointel
 ---
 
 <img srcset="/img/popmech-autointel-1x.png 1x, /img/popmech-autointel-2x.png 2x">

@@ -3,7 +3,8 @@ date: 2014-01-09
 title: Squared
 client: Personal work
 description:
-thumbnail: tn_squared
+imgfilename: squared
+indexclassname: squared
 ---
 
 <img srcset="/img/squared-01-1x.png 1x, /img/squared-01-2x.png 2x">

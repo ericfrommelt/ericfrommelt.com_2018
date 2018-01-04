@@ -3,3 +3,7 @@ languageCode = "en-us"
 title = "Eric Frommelt"
 copyright = "2011 - 2018 Eric Frommelt"
 canonifyurls = true
+[taxonomies]
+  tag = "tags"
+  category = "category"
+  work = "work"

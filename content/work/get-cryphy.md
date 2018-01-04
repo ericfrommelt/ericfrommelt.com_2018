@@ -4,7 +4,8 @@ title: Get Cryphy
 client: City Pages
 description: Cover image for a story about the anniversary of a club night in Minneapolis.
 artdirector: Mike Kooiman
-thumbnail: tn_citypages-get-cryphy
+imgfilename: citypages-get-cryphy
+indexclassname: getcryphy
 ---
 
 <img srcset="/img/citypages-get-cryphy-1x.png 1x, /img/citypages-get-cryphy-2x.png 2x">

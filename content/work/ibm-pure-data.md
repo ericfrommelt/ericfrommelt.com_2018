@@ -4,7 +4,8 @@ title: IBM Pure Data
 client: Ogilvy
 description: Ogilvy asked me to work on an ad for IBM's Pure Data System which is an integrated system that adapts to multiple large data sets. Our concept was to illustrate this using a dial that adjusts and adapts to various types of data.
 artdirector: Ricardo Lopes
-thumbnail: tn_ibm-pure-data
+imgfilename: ibm-pure-data
+indexclassname: ibmpuredata
 ---
 
 <img srcset="/img/ibm-pure-data-situ-1x.png 1x, /img/ibm-pure-data-situ-2x.png 2x">

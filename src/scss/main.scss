@@ -1,6 +1,51 @@
-$color-main: rgb(229, 230, 220);
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+$color-main: #fcfcfc;
+img {
+  max-width: 100%;
+}
+
+ol, ul {
+	list-style: none;
+}
 
 body {
   font-family: -apple-system, helvetica, sans-serif;
   background-color: $color-main;
+}
+
+// Work index
+.work-header {
+  font-size: 20vh;
+}
+.work-index {
+  display: grid;
+  grid-template-columns: 
+    1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-row-gap: 0;
+  grid-column-gap: 0;
+  gap: 0;
+}
+
+.work-index li {
+  margin: 0;
+}
+
+.work-thumbnail {
+  margin: 0;
+}
+
+.work-integratedcircuit {
+  grid-column:  3 / 7;
+}
+
+.work-norad {
+  grid-column: 1 / 3;
+}
+
+.work-leak {
+  grid-column: 3 / 5;
 }

@@ -4,7 +4,8 @@ title: Urban Mobility
 client: Metropolis
 description: Here's an infographic that I worked on that illustrates a day in the life of someone participating in BMW's Urban Mobility program.
 artdirector: Ashley Stevens
-thumbnail: tn_metropolis-urban-mobility
+imgfilename: metropolis-urban-mobility
+indexclassname: urbanmobility
 
 ---
 
