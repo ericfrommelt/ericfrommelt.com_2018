@@ -4,7 +4,7 @@ title: Visions for Space
 client: USC Viterbi School of Engineering
 description: I had the pleasure of working on illustrations based on four projects by USC astronautic students about engineering solutions to problems we may encounter in our future exploration of space.
 artdirector: Greer Burton
-imgfilename: usc-visions-for-space
+imgfilename: usc-visions-for-space-01
 indexclassname: visionsforspace
 ---
 

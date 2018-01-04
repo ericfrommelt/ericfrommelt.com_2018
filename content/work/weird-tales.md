@@ -3,7 +3,7 @@ date: 2012-10-15
 title: Weird Tales Vampires
 client: MTV Press
 description: Ebook cover for a reimagined take of the classic pulp anthology.
-imgfilename: weird-tales-vampires
+imgfilename: mtv-weird-tales-vampires
 indexclassname: weirdtales
 ---
 

@@ -3,7 +3,7 @@ date: 2014-01-09
 title: Squared
 client: Personal work
 description:
-imgfilename: squared
+imgfilename: squared-01
 indexclassname: squared
 ---
 

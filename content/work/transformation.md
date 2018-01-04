@@ -3,7 +3,7 @@ date: 2014-10-17
 title: Transformation
 client: Namics
 description: Artwork commissioned by Swiss digital agency Namics for a Christmas promotion.
-imgfilename: namics
+imgfilename: namics_transformation
 indexclassname: transformation
 ---
 
