@@ -2,6 +2,14 @@
     <main>
         <h1 class="work-header">Work.</h1>
         <ul class="work-index">
+            {{ range (.Data.Pages.ByParam "work") }}
+            <li class="work-{{ .Params.indexclassname }}">
+                <figure class="work-thumbnail">
+                    <a href="{{ .Permalink }}"><img srcset="{{ .Site.BaseURL }}img/{{ .Params.imgfilename }}-1x.png, {{ .Site.BaseURL }}img/{{ .Params.imgfilename }}-2x.png 2x"></a>
+                </figure>
+            </li>
+            {{ end }}
+            
             {{ range .Data.Pages }}
             {{ if eq .Type "work" }}
             <li class="work-{{ .Params.indexclassname }}">

@@ -5,5 +5,5 @@ copyright = "2011 - 2018 Eric Frommelt"
 canonifyurls = true
 [taxonomies]
   tag = "tags"
-  category = "category"
+  category = "categories"
   work = "work"

@@ -15,6 +15,7 @@
     <meta NAME="robots" content="noindex, nofollow">
     {{ end }}
     <title>{{ block "title" .}}{{ .Site.Title }} {{ with .Title }} | {{ . }}{{ end }}{{ end }}</title>
+    <link rel="stylesheet" href="https://use.typekit.net/gdn5glf.css">
     <link rel="stylesheet" href='{{ .Site.BaseURL }}css/{{ index .Site.Data.css.hash "main.css"}}' type="text/css" />
     <link rel="canonical" href="" />
     <link rel="alternate" type="" />
@@ -23,7 +24,7 @@
     <script>try{Typekit.load({ async: false });}catch(e){}</script>
   </head>
 </head>
-<body>
+<body class={{ .Section }}>
   {{ block "header" . }}{{ partial "site-header.html" . }}{{ end }}
   {{ block "main" . }}{{ end }}
   {{ block "footer" . }}{{ partial "site-footer.html" . }}{{ end }}

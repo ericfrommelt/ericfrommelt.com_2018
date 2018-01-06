@@ -6,6 +6,7 @@ description: I had the pleasure of working on illustrations based on four projec
 artdirector: Greer Burton
 imgfilename: usc-visions-for-space-01
 indexclassname: visionsforspace
+work: illustration
 ---
 
 <img srcset="/img/usc-visions-for-space-01-1x.png 1x, /img/usc-visions-for-space-01-2x.png 2x">
