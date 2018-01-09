@@ -5,6 +5,7 @@ client: Personal work
 description:
 imgfilename: loop
 indexclassname: loop
+work: art
 ---
 
 <img srcset="/img/loop-1x.png 1x, /img/loop-2x.png 2x">

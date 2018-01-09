@@ -6,6 +6,7 @@ description: For a story about how MetLife is using data and software to improve
 artdirector: Michael Solita
 imgfilename: fortune-metlife
 indexclassname: technologypolicy
+work: illustration
 ---
 
 <img srcset="/img/fortune-metlife-1x.png 1x, /img/fortune-metlife-2x.png 2x">

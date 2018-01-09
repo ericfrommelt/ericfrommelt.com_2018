@@ -5,6 +5,7 @@ client: Personal work
 description:
 imgfilename: bunker
 indexclassname: bunker
+work: art
 ---
 
 <img srcset="/img/bunker-1x.png 1x, /img/bunker-2x.png 2x">

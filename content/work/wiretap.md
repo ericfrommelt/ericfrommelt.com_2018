@@ -5,6 +5,7 @@ client: Personal work
 description:
 imgfilename: wiretap
 indexclassname: wiretap
+work: art
 ---
 
 <img srcset="/img/wiretap-1x.png 1x, /img/wiretap-2x.png 2x">

@@ -6,6 +6,7 @@ description: Earth's near orbit contains 1,071 operational satellites, 21,000 sp
 artdirector: Michelle Henry
 imgfilename: usc-spacejunk
 indexclassname: spacejunk
+work: illustration
 ---
 
 <img srcset="/img/usc-spacejunk-1x.png 1x, /img/usc-spacejunk-2x.png 2x">

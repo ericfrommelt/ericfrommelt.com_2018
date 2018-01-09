@@ -5,6 +5,7 @@ client: Personal work
 description:
 imgfilename: norad
 indexclassname: norad
+work: art
 ---
 
 <img srcset="/img/norad-1x.png 1x, /img/norad-2x.png 2x">

@@ -5,6 +5,7 @@ client: Personal work
 description:
 imgfilename: squared-01
 indexclassname: squared
+work: art
 ---
 
 <img srcset="/img/squared-01-1x.png 1x, /img/squared-01-2x.png 2x">

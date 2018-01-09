@@ -5,6 +5,7 @@ client: Personal work
 description:
 imgfilename: network-object2
 indexclassname: networkobject2
+work: art
 ---
 
 <img srcset="/img/network-object2-1x.png 1x, /img/network-object2-2x.png 2x">

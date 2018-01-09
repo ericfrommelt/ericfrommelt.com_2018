@@ -5,6 +5,7 @@ client: Personal work
 description:
 imgfilename: dsp
 indexclassname: dsp
+work: art
 ---
 
 <img srcset="/img/dsp-1x.png 1x, /img/dsp-2x.png 2x">

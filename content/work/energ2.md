@@ -6,6 +6,7 @@ description: EnerG2 is a Seattle startup working on a new carbon synthesis proce
 artdirector: Sue Nguyen
 imgfilename: energ2
 indexclassname: energ2
+work: infographic
 ---
 
 <img srcset="/img/energ2-1x.png 1x, /img/energ2-2x.png 2x">

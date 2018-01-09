@@ -5,7 +5,7 @@ client: Personal work
 description:
 imgfilename: artificial-intelligence
 indexclassname: artificialintelligence
-art: true
+work: art
 ---
 
 <img srcset="/img/artificial-intelligence-1x.png 1x, /img/artificial-intelligence-2x.png 2x">

@@ -5,6 +5,7 @@ client: Personal work
 description:
 imgfilename: leak
 indexclassname: leak
+work: art
 ---
 
 <img srcset="/img/leak-1x.png 1x, /img/leak-2x.png 2x">

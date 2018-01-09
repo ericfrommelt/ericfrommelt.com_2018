@@ -5,6 +5,7 @@ client: Personal work
 description:
 imgfilename: gps
 indexclassname: gps
+work: art
 ---
 
 <img srcset="/img/gps-1x.png 1x, /img/gps-2x.png 2x">

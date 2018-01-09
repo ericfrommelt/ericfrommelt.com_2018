@@ -6,6 +6,7 @@ description: For a story on teaching computers to perform creative tasks like wr
 artdirector: Michelle Henry
 imgfilename: creative-computers
 indexclassname: creativecomputers
+work: illustration
 ---
 
 <img srcset="/img/creative-computers-1x.png 1x, /img/creative-computers-2x.png 2x">

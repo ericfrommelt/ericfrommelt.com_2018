@@ -6,6 +6,7 @@ description: Illustration for ESPN about harnessing the PGA Tour's ShotLink tech
 artdirector: Alice Alves
 imgfilename: espn-numbers-shotlink
 indexclassname: numbersshotlink
+work: illustration
 ---
 
 <img srcset="/img/espn-numbers-shotlink-1x.png 1x, /img/espn-numbers-shotlink-2x.png 2x">

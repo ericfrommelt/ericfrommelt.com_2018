@@ -5,6 +5,7 @@ client: Personal work
 description:
 imgfilename: encryption-key
 indexclassname: encryptionkey
+work: art
 ---
 
 <img srcset="/img/encryption-key-1x.png 1x, /img/encryption-key-2x.png 2x">

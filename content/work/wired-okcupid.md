@@ -6,6 +6,7 @@ description: This was intended to be a piece of a larger infographic package dea
 artdirector: Josef Reyes
 imgfilename: wired-okcupid
 indexclassname: wiredokcupid
+work: infographic
 ---
 
 <img srcset="/img/wired-okcupid-1x.png 1x, /img/wired-okcupid-2x.png 2x">

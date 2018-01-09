@@ -6,6 +6,7 @@ description: Ogilvy asked me to work on an ad for IBM's Pure Data System which i
 artdirector: Ricardo Lopes
 imgfilename: ibm-pure-data
 indexclassname: ibmpuredata
+work: illustration
 ---
 
 <img srcset="/img/ibm-pure-data-situ-1x.png 1x, /img/ibm-pure-data-situ-2x.png 2x">

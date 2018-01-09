@@ -6,6 +6,7 @@ description: Here's an infographic that I worked on that illustrates a day in th
 artdirector: Ashley Stevens
 imgfilename: metropolis-urban-mobility
 indexclassname: urbanmobility
+work: infographic
 
 ---
 

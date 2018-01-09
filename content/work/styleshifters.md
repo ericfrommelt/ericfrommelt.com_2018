@@ -5,6 +5,7 @@ client: Chrysler / John Varvatos
 description:
 imgfilename: styleshifters
 indexclassname: styleshifters
+work: illustration
 ---
 
 <img srcset="/img/styleshifters-1x.png 1x, /img/styleshifters-2x.png 2x">
