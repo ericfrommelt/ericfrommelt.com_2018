@@ -1,3 +1,5 @@
+@import "mixins";
+
 html {
   box-sizing: border-box;
   font-size: 16px;
@@ -41,8 +43,11 @@ h1, h2, h3, h4, h5, h6 {
 
 .work-header {
   text-transform: uppercase;
-  font-size: 20vh;
+  font-size: 6rem;
   color: #000;
+  @include for-desktop-up {
+    font-size: 20vh;
+  }
 }
 
 .work li {
@@ -50,125 +55,157 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 @supports (display: grid) {
-  // .work-index {
-  //   display: grid;
-  //   grid-template-columns: 
-  //     repeat(auto-fill, 40vh);
-  //   grid-row-gap: 2rem;
-  //   grid-column-gap: 2rem;
-  //   gap: 0;
-  // }
-
   .work-index {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap: 2em;
-    grid-template-areas:
-      "1 c c"
-      "a b ."
-      "e e ."
-      "g h ."
-      ". i i"
-      ". k l"
-      "j j ."
-      "m m ."
-      ". n o"
-      "p p ."
-      ". q r"
-      "s t u"
-      ". d d"
-      ". . f"
+    @include for-phone-only {
+      grid-auto-rows: minmax(auto, auto);
+      grid-gap: 2rem;
+    }
+    @include for-tablet-portrait-up {
+      grid-template-columns: repeat(3, 1fr);
+      grid-gap: 2em;
+      grid-template-areas:
+        "1 c c"
+        "a b ."
+        "e e ."
+        "g h ."
+        ". i i"
+        ". k l"
+        "j j ."
+        "m m ."
+        ". n o"
+        "p p ."
+        ". q r"
+        "s t u"
+        ". d d"
+        ". . f";
+    }
   }
   
   .work li {
-    margin: 0;
-  }
-  
-  .work-thumbnail {
     margin: 0;
   }
 
   // illustration
   .title-illustration {
     display: flex;
-    grid-area: 1;
-    align-items: center;
-    transform: rotate(-90deg);
     text-transform: uppercase;
     font-family: stratum-2-web;
     font-weight: 200;
-    font-size: 2rem;
+    font-size: 1.2rem;
     color: #a0a0a0;
-    letter-spacing: .3rem;
-    padding: 0 4rem ;
+    
+    
+    @include for-tablet-portrait-up {
+      grid-area: 1;
+      transform: rotate(-90deg);
+      align-items: center;
+      padding: 0 4rem;
+      font-size: 2rem;
+      letter-spacing: .3rem;
+    }
   }
 
   .work-augmentedrealitydanger {
-    grid-area: a;
+    @include for-tablet-portrait-up {
+      grid-area: a;
+    }
   }
 
   .work-spacejunk {
-    grid-area: c;
+    @include for-tablet-portrait-up {
+      grid-area: c;
+    }
   }
 
   .work-bigdatasecurity {
-    grid-area: b;
+    @include for-tablet-portrait-up {
+      grid-area: b;
+    }
   }
 
   .work-oculus-rift {
-    grid-area: d;
+    @include for-tablet-portrait-up {
+      grid-area: d;
+    }
   }
 
   .work-creativecomputers {
-    grid-area: e;
+    @include for-tablet-portrait-up {
+      grid-area: e;
+    }
   }
 
   .work-technologypolicy {
-    grid-area: f;
+    @include for-tablet-portrait-up {
+      grid-area: f;
+    }
   }
 
   .work-impactofmedia {
-    grid-area: g;
+    @include for-tablet-portrait-up {
+      grid-area: g;
+    }
   }
 
   .work-newcar {
-    grid-area: h;
+    @include for-tablet-portrait-up {
+      grid-area: h;
+    }
   }
 
   .work-numberslakers {
-    grid-area: i;
+    @include for-tablet-portrait-up {
+      grid-area: i;
+    }
   }
 
   .work-numbersshotlink {
-    grid-area: j;
+    @include for-tablet-portrait-up {
+      grid-area: j;
+    }
   }
 
   .work-getcryphy {
-    grid-area: k;
+    @include for-tablet-portrait-up {
+      grid-area: k;
+    }
   }
 
   .work-visionsforspace {
-    grid-area: l;
+    @include for-tablet-portrait-up {
+      grid-area: l;
+    }
   }
 
   .work-styleshifters {
-    grid-area: m;
+    @include for-tablet-portrait-up {
+      grid-area: m;
+    }
   }
 
   .work-ibmpuredata {
-    grid-area: n;
+    @include for-tablet-portrait-up {
+      grid-area: n;
+    }
   }
 
   .work-weirdtales {
-    grid-area: o;
+    @include for-tablet-portrait-up {
+      grid-area: o;
+    }
   }
 
   .work-quantjunkies {
-    grid-area: p;
+    @include for-tablet-portrait-up {
+      grid-area: p;
+    }
   }
 
   .work-autointel {
-    grid-area: q;
+    @include for-tablet-portrait-up {
+      grid-area: q;
+    }
   }
   .work-integratedcircuit {
   
