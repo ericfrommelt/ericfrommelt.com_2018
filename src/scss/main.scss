@@ -1,5 +1,11 @@
 @import "mixins";
 
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
 html {
   box-sizing: border-box;
   font-size: 16px;
@@ -8,6 +14,7 @@ html {
 $color-main: #fcfcfc;
 img {
   max-width: 100%;
+  display: block;
 }
 
 ol, ul {
@@ -50,10 +57,6 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
-.work li {
-  margin: 1rem;
-}
-
 @supports (display: grid) {
   .work-index {
     display: grid;
@@ -82,8 +85,38 @@ h1, h2, h3, h4, h5, h6 {
     }
   }
   
-  .work li {
-    margin: 0;
+  .work figure {
+    position: relative;
+    overflow: hidden;
+  }
+
+  .work-content {
+    display: none;
+    @include for-desktop-up {
+      background-color: #000;
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      transform: translateZ(0);
+      z-index: 1;
+      opacity: 0;
+      transition: opacity 0.2s, ease-in-out;
+      display: flex;
+      align-items: center;
+    }
+  }
+
+  .work-content:hover {
+    opacity: 1;
+  }
+
+  .work-title {
+    text-transform: uppercase;
+    font-weight: 200;
+    color: #fff;
+    margin: 5rem 0 0 1rem;
   }
 
   // illustration
